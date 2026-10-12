@@ -110,36 +110,6 @@
       line-height: 1.9;
     }
 
-    .contador {
-      text-align: center;
-    }
-
-    .cajas {
-      display: table;
-      width: 100%;
-      table-layout: fixed;
-      margin-top: 25px;
-    }
-
-    .caja {
-      display: table-cell;
-      padding: 15px;
-      text-align: center;
-      color: var(--vino);
-    }
-
-    .numero {
-      display: block;
-      font-size: clamp(2rem, 6vw, 4rem);
-      font-weight: bold;
-    }
-
-    .etiqueta {
-      font-size: .95rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
     .recuerdos {
       display: table;
       width: 100%;
@@ -162,16 +132,6 @@
       border-radius: 18px;
       margin-bottom: 18px;
       box-shadow: 0 8px 22px rgba(123,30,59,.18);
-    }
-
-    .icono {
-      width: 76px;
-      height: 76px;
-      line-height: 76px;
-      margin: 0 auto 15px;
-      border-radius: 50%;
-      background: var(--rosa);
-      font-size: 2rem;
     }
 
     .recuerdo h3 {
@@ -227,10 +187,8 @@
 
     @media (max-width: 700px) {
       section { padding: 25px 18px; }
-      .cajas, .recuerdos { display: block; }
-      .caja, .recuerdo { display: block; width: 100%; }
-      .caja { padding: 9px; }
-      .recuerdo { padding: 18px 5px; }
+      .recuerdos { display: block; }
+      .recuerdo { display: block; width: 100%; padding: 18px 5px; }
     }
   </style>
 </head>
@@ -249,14 +207,10 @@
       <h2>Para la persona que amo</h2>
       <div class="mensaje" id="mensajePrincipal">
         <p>❤️🥹 Mi fresita hermosa, mi amorcito, hoy quiero recordarte lo importante que eres para mí y lo mucho que has cambiado mi vida. A pesar de todas las situaciones que hemos vivido, de los momentos difíciles y de todo lo que hemos tenido que pasar juntos, sigues siendo una de las personas más especiales que han llegado a mi vida. Desde que apareciste, cambiaste mi manera de ver muchas cosas y me regalaste sentimientos que quizá nunca imaginé llegar a sentir de esta manera. ❤️‍🩹💗</p>
-        <p>A veces, mi niña hermosa, todavía pienso que eres demasiado para mí, que eres tan maravillosa que mereces algo mejor. No porque no quiera estar contigo, sino porque hay momentos en los que me pregunto cómo tuve tanta suerte de encontrar a alguien como tú. Sé que tengo cosas que mejorar y que no siempre he hecho todo bien, pero quiero aprender de mis errores y demostrarte con hechos cuánto te amo y lo mucho que deseo hacerte feliz. 🥹❤️</p>
-        <p>Mi fresita, no tienes idea de lo mucho que me encantas. Me encantan tus ojos, porque podría quedarme mirándolos sin cansarme; tu cabello, tu piel y cada pequeño detalle que te hace tan hermosa ante mis ojos. Me encanta tu voz, porque podría escucharte durante horas, y tu sonrisa, porque tiene esa magia de alegrarme incluso los días más difíciles. Me encanta tu forma de ser, tus ocurrencias, tus gestos y esas pequeñas cosas que quizá tú no notas, pero que a mí me hacen enamorarme cada vez más de ti. <strong>No solamente me encanta lo hermosa que eres, me encanta todo lo que eres, mi fresita preciosa.</strong> 🍓❤️</p>
-        <p>A pesar de lo que hemos pasado, de nuestros errores y de los momentos que quizá nos han dolido, sigo teniendo ganas de compartir mi vida contigo, de crear recuerdos, de escucharte, de abrazarte y de verte sonreír. Sé que no todo siempre será perfecto, pero quiero que aprendamos a comprendernos, a hablar de lo que sentimos y a cuidar este amor tan bonito que tenemos. No quiero que las dificultades nos hagan olvidar todo lo bueno que nos ha unido. 💗🫂</p>
-        <p>Quiero que sepas que no tienes que ser perfecta para que te ame. Me gustas tú, con tus días buenos y malos, tus virtudes, tus defectos, tus sueños y todo aquello que te hace ser esa niña tan especial. Deseo que a mi lado te sientas querida, valorada y escuchada, y que nunca tengas que dudar de lo importante que eres para mí.</p>
-        <p>Gracias por llegar a mi vida, mi fresita. Quizá todavía me cueste creer que tengo a una niña tan maravillosa a mi lado, pero quiero dejar atrás mis inseguridades y esforzarme por ser una mejor persona. No puedo prometerte que nunca cometeré errores, pero sí quiero aprender de ellos, porque lo nuestro significa muchísimo para mí y no quiero dejar de luchar por algo que me hace tan feliz. 🍓💞</p>
-        <p><strong>Feliz primer añito de novios, mi fresita hermosa.</strong> ❤️🥹 Si pudiera volver al día en que comenzó nuestra historia, me gustaría volver a conocerte y elegirte una vez más, incluso sabiendo que no todo sería fácil, porque cada experiencia contigo me ha enseñado algo y me ha permitido conocer una parte más de ti. No sé qué nos tenga preparado el futuro, pero hoy quiero seguir construyendo contigo, seguir conociéndote y demostrarte que mi amor es sincero.</p>
-        <p>Te amo muchísimo, mi niña preciosa. Nunca olvides lo hermosa que eres, lo mucho que me encantan tus ojitos, tu cabello, tu piel, tu voz y esa sonrisa que tanto adoro. Y, sobre todo, nunca olvides que llegaste a mi vida para cambiarla de una manera muy especial. Aunque a veces piense que mereces algo mejor que yo, quiero esforzarme por ser alguien que te haga sentir orgullosa de nuestro amor y feliz de tenerme a tu lado.</p>
-        <p><strong>TE AMO CON TODO MI CORAZÓN, MI FRESITA HERMOSA.</strong> 🍓❤️💋 Gracias por este primer año juntos. Ojalá sea solamente el comienzo de muchísimos recuerdos, aprendizajes y momentos bonitos a tu lado. Si hay algo que quiero que tengas siempre presente es que, entre todas las cosas bonitas que me han pasado, conocerte y enamorarme de ti ha sido una de las más especiales. ❤️♾️🍓💗</p>
+        <p>A veces, mi niña hermosa, todavía pienso que eres demasiado para mí, que eres tan maravillosa que mereces algo mejor. No porque no quiera estar contigo, sino porque hay momentos en los que me pregunto cómo tuve tanta suerte de encontrar a alguien como tú. Sé que tengo cosas que mejorar y que no siempre han salido las cosas como quiero, pero quiero aprender y demostrarte con hechos cuánto te amo. 🥹❤️</p>
+        <p>Mi fresita, no tienes idea de lo mucho que me encantas. Me encantan tus ojos, tu cabello, tu piel, tu voz y esa sonrisa que tiene la magia de alegrarme los días más difíciles. <strong>No solamente me encanta lo hermosa que eres, me encanta todo lo que eres, mi fresita preciosa.</strong> 🍓❤️</p>
+        <p>A pesar de lo que hemos pasado, sigo teniendo ganas de compartir mi vida contigo, de crear recuerdos, de escucharte, de abrazarte y de verte sonreír. Sé que no todo siempre será perfecto, pero quiero que aprendamos a comprendernos y a cuidar este amor tan bonito. 💗🫂</p>
+        <p><strong>Feliz primer añito de novios, mi fresita hermosa.</strong> ❤️🥹 Te amo muchísimo, mi niña preciosa. Ojalá este sea solamente el comienzo de muchísimos recuerdos y momentos bonitos a tu lado. ❤️♾️🍓💗</p>
       </div>
     </section>
 
@@ -264,23 +218,22 @@
       <h2>Nuestra historia</h2>
       <div class="recuerdos">
         <article class="recuerdo">
-          <img class="foto-recuerdo" src="1%20(1).jpg" alt="Un recuerdo especial de nuestra historia">
+          <img class="foto-recuerdo" src="foto1.jpg" alt="Un recuerdo especial de nuestra historia">
           <h3>Un momento especial</h3>
           <p>Una memoria bonita que forma parte de nuestra historia juntos.</p>
         </article>
         <article class="recuerdo">
-          <img class="foto-recuerdo" src="1%20(2).jpg" alt="Un recuerdo de nuestra historia de amor">
+          <img class="foto-recuerdo" src="foto2.jpg" alt="Un recuerdo de nuestra historia de amor">
           <h3>Nuestros momentos</h3>
           <p>Cada abrazo, sonrisa y aventura se convirtió en un recuerdo inolvidable.</p>
         </article>
         <article class="recuerdo">
-          <img class="foto-recuerdo" src="1%20(3).jpg" alt="Un collage de recuerdos de nuestra relación">
+          <img class="foto-recuerdo" src="foto3.jpg" alt="Un collage de recuerdos de nuestra relación">
           <h3>Un amor para recordar</h3>
           <p>Lo más bonito es saber que todavía nos quedan muchos sueños por cumplir juntos.</p>
         </article>
       </div>
     </section>
-
   </main>
 
   <footer>
@@ -288,47 +241,5 @@
     <p id="fraseFinal">Que este sea solo el primero de muchos años juntos.</p>
     <p><a class="boton" href="https://vt.tiktok.com/ZSbTPnFxM/" target="_blank" rel="noopener noreferrer">Ver nuestro recuerdo especial en TikTok ❤️</a></p>
   </footer>
-
-  <script>
-    function calcularTiempo(fechaInicio, fechaFinal) {
-      let anos = fechaFinal.getFullYear() - fechaInicio.getFullYear();
-      let meses = fechaFinal.getMonth() - fechaInicio.getMonth();
-      let dias = fechaFinal.getDate() - fechaInicio.getDate();
-
-      if (dias < 0) {
-        meses--;
-        const diasMesAnterior = new Date(fechaFinal.getFullYear(), fechaFinal.getMonth(), 0).getDate();
-        dias += diasMesAnterior;
-      }
-
-      if (meses < 0) {
-        anos--;
-        meses += 12;
-      }
-
-      return { anos, meses, dias };
-    }
-
-    function actualizarPagina() {
-      const nombre1 = document.getElementById('nombre1').value.trim();
-      const nombre2 = document.getElementById('nombre2').value.trim();
-      const dedicatoria = document.getElementById('dedicatoria').value.trim();
-      const resultado = document.getElementById('resultado');
-
-      if (!nombre1 || !nombre2) {
-        resultado.textContent = 'Completa tu nombre y el nombre de tu pareja.';
-        return;
-      }
-
-      document.getElementById('titulo').textContent = nombre1 + ' y ' + nombre2;
-
-      if (dedicatoria) {
-        document.getElementById('mensajePrincipal').innerHTML = '<p>' + dedicatoria.replace(/\\n/g, '</p><p>') + '</p>';
-      }
-
-      resultado.innerHTML = '<strong>' + nombre1 + ' y ' + nombre2 + '</strong><br>' +
-        'Gracias por compartir este hermoso primer año juntos. ¡Feliz aniversario, mi amor! ❤️';
-    }
-  </script>
 </body>
 </html>
